@@ -1,0 +1,54 @@
+body{
+	background-image: url(../img/bg.png);
+}
+.wrap{
+	width: 813px;
+	margin: 0 auto;
+}
+.header{
+	text-align: center;
+}
+textarea{
+	width:700px;
+	height:200px;
+	visibility:hidden;
+}
+#btn{
+	width: 250px;
+	height: 50px;
+	font-size: 25px;
+}
+.key{
+	text-align: center;
+	background-color: lightblue;
+	width: 90px;
+}
+.col2{
+	text-align: center;
+	background-color: lightgreen;
+}
+.hwrap{
+	width: 330px;
+	position: relative;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.hspan{
+	display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.headera{
+	display: inline-block;
+	width: 80px;
+	height: 60px;
+	border-radius: 20%;
+	text-decoration: none;
+	background-color: lightblue;
+	line-height: 60px;
+	text-align: center;
+	margin-left: 10px;
+	float: right;
+}

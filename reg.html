@@ -1,0 +1,41 @@
+<!doctype html>
+	<head>
+		<meta charset="UTF-8">
+		<title>侠客注册系统</title>
+		<link rel="stylesheet" type="text/css" href="./css/reg.css">
+		<script type="text/javascript" src="./js/reg.js"></script>
+	</head>
+<body>
+	<img src="./img/logo.png">
+	<div class="wrap">
+		<h1>侠客注册系统</h1>
+		<form action="reg.php" method="post" onsubmit="return checkvalue(this);">
+			<table cellpadding="5">
+				<tr>
+					<td style="text-align: right;"><label for="username">用户名：</label></td>
+					<td style="text-align: left;">
+						<input id="username" name="username" type="edit" />
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: right;"><label for="password">密码：</label></td>
+					<td style="text-align: left;">
+						<input id="password" name="password" type="password" />
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: right;"><label for="password">确认密码：</label></td>
+					<td style="text-align: left;">
+						<input id="repassword" name="repassword" type="password" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input id="btn" type="submit" value="注册" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
